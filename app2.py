@@ -41,7 +41,7 @@ def score():
         value = sheet[col_index + str(row_index)].value
 
         # Render the template with the dynamic content
-        return render_template('template.html', name=name, month=month, day=day, score=value)
+        return render_template('score.html', name=name, month=month, day=day, score=value)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
