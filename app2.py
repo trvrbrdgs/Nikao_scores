@@ -8,7 +8,7 @@ workbook = openpyxl.load_workbook('Scoresheet_2022.xlsx')
 def home():
     return render_template('index.html')
 
-@app.route('/score', methods=['POST'])
+@app.route('/score', methods=['GET','POST'])
 def score():
     # Get the sheet names representing each month
     months = workbook.sheetnames
