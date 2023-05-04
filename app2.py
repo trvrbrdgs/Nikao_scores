@@ -1,14 +1,16 @@
 from flask import Flask, render_template, request
 import openpyxl
+import pandas as pd
+import os
 
 app = Flask(__name__)
-workbook = openpyxl.load_workbook('Scoresheet_2022.xlsx')
+workbook = openpyxl.load_workbook('./Nikao_Data/score_search/Scoresheet_2022.xlsx')
 
 @app.route('/')
 def home():
     return render_template('index.html')
 
-@app.route('/score', methods=['GET','POST'])
+@app.route('/score', methods=['POST'])
 def score():
     # Get the sheet names representing each month
     months = workbook.sheetnames
