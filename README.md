@@ -13,4 +13,4 @@ The one stop shop for checking workouts and scores at Nikao.
 ![Page View](/images/screenshot1.png)
 
 **Code View**
-![Code View](/images/screenshot2.png)
+![Code View](/images/Screenshot2.png)
