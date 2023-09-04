@@ -10,7 +10,7 @@ The one stop shop for checking workouts and scores at Nikao.
 - Add feature to see total workout count for each member
 
 **Current Page View**
-![Page View](screenshot1.png)
+![Page View](images/screenshot1.png)
 
 **Code View**
-![Code View](screenshot2.png)
+![Code View](images/screenshot2.png)
