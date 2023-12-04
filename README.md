@@ -6,7 +6,7 @@ The one stop shop for checking workouts and scores at Nikao.
 
 ### Future additions to consider
 - Add more functionality (i.e. drop-down menus)
-- Add workout associated with date search
+- ~Add workout associated with date search~
 - Add feature to see total workout count for each member
 
 **Current Page View**
