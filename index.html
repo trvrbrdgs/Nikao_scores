@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
     <title>jQuery Nikao Scores</title>
+
+    <!-- To run the HTTP requests -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- To get the name and the score -->
     <script src="static/js/search1.js"></script>
+    
+    <!--To parse through the cvs files for the WoDs-->
+    <script src="static/js/practice4.js"></script>
+
+    <!-- For the style -->
     <link rel="stylesheet" type="text/css" href="static/css/style.css">  
 </head>
 
 <body>
-<!-- Your content goes here -->
   <div class="center-container">
     <h1 id="myElement">This is my element</h1>
   </div>
@@ -25,7 +32,54 @@
 
   <div class ="results-container">
     <span id="searchResults"></span>
+    <!-- <span id="wodResults"></span> -->
   </div>
+
+  <div class="top-bottom-container">
+    <h3>Training Cycle: </h3>
+    <span id="results0"></span>
+    <br>
+    <h3>WoD Name: </h3>
+    <span id="results6"></span>
+  </div>
+
+  <div class="row">
+    <div class="column">
+        <h2>Athlete</h2>
+        <h3>Strength:</h3>
+        <span id="results2"></span>
+        <h3>Athlete WoD:</h3>
+        <span id="results7"></span>
+    </div>
+    <div class="column">
+        <h2>Enthusiast</h2>
+        <h3>Strength:</h3>
+        <span id="results3"></span>
+        <h3>Enthusiast WoD:</h3>
+        <span id="results8"></span>
+    </div>
+    <div class="column">
+        <h2>Foundation</h2>
+        <h3>Strength:</h3>
+        <span id="results4"></span>
+        <h3>Foundation WoD:</h3>
+        <span id="results9"></span>
+    </div>
+    <div class="column">
+        <h2>At-Home</h2>
+        <h3>Strength:</h3>
+        <span id="results5"></span>
+        <h3>At-Home WoD:</h3>
+        <span id="results10"></span>
+    </div>
+</div>
+<br>
+<div class="top-bottom-container">
+  <h3>Cash Out: </h3>
+  <span id="results11"></span>
+  <h3>Reference: </h3>
+  <span id="results1"></span>
+</div>
 
 </body>
 </html>
