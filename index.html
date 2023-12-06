@@ -8,7 +8,7 @@
     <!-- To run the HTTP requests -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- To get the name and the score -->
-    <script src="static/js/search1.js"></script>
+    <script src="static/js/search2.js"></script>
     
     <!--To parse through the cvs files for the WoDs-->
     <script src="static/js/practice4.js"></script>
@@ -23,10 +23,21 @@
   </div>
 
   <div class ="input-container">
-    <input type="text" id="monthInput" placeholder="Enter Month (e.g. August)">
-    <input type="text" id="yearInput" placeholder="Enter Year (e.g. 2022)">
+    <!-- <input type="text" id="monthDropdown" placeholder="Enter Month (e.g. August)">
+    <input type="text" id="yearDropdown" placeholder="Enter Year (e.g. 2022)">
     <input type="text" id="nameInput" placeholder="Enter Name (e.g. John Smith)">
-    <input type="text" id="dayInput" placeholder="Enter Day (e.g. 2)">
+    <input type="text" id="dayDropdown" placeholder="Enter Day (e.g. 2)">
+    <button id="searchButton">Search</button> -->
+    <select id="yearDropdown" placeholder="Select Year">
+      <!-- Options for years will be dynamically added using JavaScript -->
+    </select>
+    <select id="monthDropdown" placeholder="Select Month">
+      <!-- Options for months will be dynamically added using JavaScript -->
+    </select>
+    <select id="dayDropdown" placeholder="Select Day">
+      <!-- Options for days will be dynamically added using JavaScript -->
+    </select>
+    <input type="text" id="nameInput" placeholder="Enter Name (e.g. John Smith)">
     <button id="searchButton">Search</button>
   </div>
 
