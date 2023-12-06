@@ -1,14 +1,14 @@
 $(document).ready(function () {
     $('#myElement').text('Nikao Score Search');
-    var $monthInput = $('#monthInput');
-    var $dayInput = $('#dayInput');
-    var $yearInput = $('#yearInput');
+    var $monthDropdown = $('#monthDropdown');
+    var $dayDropdown = $('#dayDropdown');
+    var $yearDropdown = $('#yearDropdown');
     var $searchButton = $('#searchButton');
 
     // Attach event handlers for input change
-    $monthInput.on('change', search);
-    $dayInput.on('change', search);
-    $yearInput.on('change', search);
+    $monthDropdown.on('change', search);
+    $dayDropdown.on('change', search);
+    $yearDropdown.on('change', search);
     $searchButton.on('click', search);
     
 
@@ -36,9 +36,9 @@ $(document).ready(function () {
             rowResults[h].length = 0;
         }
 
-        var month = $monthInput.val();
-        var day = $dayInput.val();
-        var year = $yearInput.val();
+        var month = $monthDropdown.val();
+        var day = $dayDropdown.val();
+        var year = $yearDropdown.val();
 
         // Define userInput
         var userInputDate = `${month} ${day}, ${year}`;
