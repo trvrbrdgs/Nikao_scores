@@ -9,7 +9,7 @@ The one stop shop for checking workouts and scores at Nikao. From 2019 to 2023.
 - ~Add workout associated with date search~
 
 **Current Page View**
-![Page View](/images/screenshot2.png)
+![Page View](/images/Screenshot2.png)
 
 **Code Preview**
 ![Code View](/images/Screenshot4.png)
