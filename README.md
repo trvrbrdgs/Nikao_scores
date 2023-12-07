@@ -1,16 +1,15 @@
 # nikao_scores
-The one stop shop for checking workouts and scores at Nikao.
+The one stop shop for checking workouts and scores at Nikao. From 2019 to 2023.
 
 ## Created Simple Webpage
-*Using JavaScript and AJAX*
+*Using JavaScript, HTML, CSS, and Google Suite*
 
 ### Future additions to consider
 - ~Add more functionality (i.e. drop-down menus)~
 - ~Add workout associated with date search~
-- Add feature to see total workout count for each member
 
 **Current Page View**
-![Page View](/images/screenshot1.png)
+![Page View](/images/screenshot2.png)
 
-**Code View**
-![Code View](/images/Screenshot2.png)
+**Code Preview**
+![Code View](/images/Screenshot4.png)
