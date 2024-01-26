@@ -1,5 +1,5 @@
 # nikao_scores
-The one stop shop for checking workouts and scores at Nikao. From 2019 to 2023.
+The one stop shop for checking workouts and scores at Nikao. From 2019 to present day.
 
 ## Created Simple Webpage
 *Using JavaScript, HTML, CSS, and Google Suite*
